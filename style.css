@@ -5,13 +5,17 @@
     border: 1px red solid;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 /*IMPOSTAZIONE MACRO AREE START*/
 .side-main{
     display: flex;
 }
 
 .side-nav{
-    width: 200px;
+    width: 300px;
     background-color: lightpink;
 }
 
@@ -32,12 +36,12 @@ main h2{
 
 .bottom-nav{
     height: 100px;
-    background-color:lightseagreen ;
+    background-color:rgba(40, 40, 40, 1) ;
 }
 /*IMPOSTAZIONE MACRO AREE START*/
 
 .upgrade{
-    height: 50px;
+    height: 80px;
     padding: 0 20px;
     position: fixed;
     right: 0;
@@ -46,8 +50,20 @@ main h2{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: lightcyan;
-   
+    background-color: rgba(8, 11, 18, 1);
+}
+
+.upgrade button{
+    padding: 10px 20px;
+    color:white;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: rgba(8, 11, 18, 1);
+}
+
+.upgrade .logo{
+    color: aquamarine;
 }
 
 .main-top-list{
