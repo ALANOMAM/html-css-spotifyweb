@@ -1,1 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px red solid;
+}
 
+.side-main{
+    display: flex;
+}
+
+.side-nav{
+    width: 200px;
+    background-color: lightpink;
+}
+
+main{
+    flex-grow: 1;
+    background-color: lightskyblue;
+    height: 600px;
+}
+
+.bottom-nav{
+    height: 300px;
+    background-color:lightseagreen ;
+}
