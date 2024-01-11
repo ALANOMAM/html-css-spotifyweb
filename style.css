@@ -5,6 +5,7 @@
     border: 1px red solid;
 }
 
+/*IMPOSTAZIONE MACRO AREE START*/
 .side-main{
     display: flex;
 }
@@ -24,3 +25,5 @@ main{
     height: 300px;
     background-color:lightseagreen ;
 }
+/*IMPOSTAZIONE MACRO AREE START*/
+
