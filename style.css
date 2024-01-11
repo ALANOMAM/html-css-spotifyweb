@@ -27,3 +27,82 @@ main{
 }
 /*IMPOSTAZIONE MACRO AREE START*/
 
+.main-top-list{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.main-top-list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main-top-list li{
+    list-style-type: none;
+}
+
+
+.recently-played{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recently-played .albums{
+    display: flex;
+}
+.recently-played .albums div{
+    background-color: bisque;
+    width: calc(100% / 6);
+    height: 200px; /*test*/
+}
+
+.john-popolari{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: start;
+    padding-top: 20px;
+}
+
+ .images{
+display: flex;
+}
+
+
+.image{
+    width: 300px; /*test*/
+    height: 200px;/*test*/
+    background-color: bisque;
+}
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .recently-played .albums{
+        flex-wrap: wrap;
+    }
+
+    .recently-played .albums div{
+        width: calc(100% / 4);
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    .recently-played .albums{
+        flex-wrap: wrap;
+    }
+
+    .recently-played .albums div{
+        width: calc(100% / 2);
+    }
+}
