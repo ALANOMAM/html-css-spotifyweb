@@ -271,6 +271,8 @@ width: calc(100% / 2);
 }
 
 .bottom-nav{
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -278,6 +280,27 @@ width: calc(100% / 2);
 .bottom-nav .boxes{
     background-color: brown;
     width: calc(100% / 3);
+}
+
+.box1 img{
+width:50px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap:40px;
+}
+
+.box1 div:first-child{
+display: flex;
+gap:10px;
+}
+
+.box1 .heart-folder{
+display: flex;
+gap:10px;  
 }
 
 .box2{
@@ -294,6 +317,7 @@ justify-content: center;
 align-items: center;
 gap:20px;
 }
+
 
 .box2 div:first-child i{ 
 font-size: 30px;
@@ -316,6 +340,12 @@ font-size: 30px;
 }
 
 
+.box3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
 
 /*fine bottom nav*/
 
