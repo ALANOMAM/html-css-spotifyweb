@@ -265,6 +265,21 @@ width: calc(100% / 2);
     border-radius: 200px;
 }
 
+/* inizio bottom nav */
+*.bottom-nav{
+    color: white;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-nav .boxes{
+    background-color: brown;
+    width: calc(100% / 3);
+}
+/*fine bottom nav*/
 
 
 @media screen and (max-width: 992px){
