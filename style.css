@@ -47,6 +47,14 @@ body{
     gap: 20px;
 }
 
+.menu div:nth-child(n+2) span{
+    color: gray;
+}
+
+.menu div:nth-child(n+2) span:hover{
+    color: white;
+}
+
 .menu img{
     width: 30px;
     height: auto;
@@ -68,6 +76,9 @@ body{
     color: gray;
 }
 
+.playlist li:hover{
+    color: white;
+}
 .playlist i{
     background-color: gray;
     padding: 10px;
@@ -191,6 +202,9 @@ main h2{
     color:gray;
 }
 
+.main-top-list li:hover{
+    color: white;
+}
 
 .recently-played{
     display: flex;
