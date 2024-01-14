@@ -68,6 +68,14 @@ body{
     gap:10px;
 }
 
+.playlist div span{
+    color: gray;
+}
+
+.playlist div span:hover{
+    color: white;
+}
+
 .playlist strong{
     color:white;
 }
@@ -83,6 +91,11 @@ body{
     background-color: gray;
     padding: 10px;
 }
+
+.playlist div i:hover{
+ background-color: white;
+}
+
 .playlist ul{
     display: flex;
     flex-direction: column;
@@ -180,6 +193,10 @@ main h2{
     border-width: 2px;
     border-radius: 20px;
     background-color: rgba(8, 11, 18, 1);
+}
+
+.upgrade button:hover{
+    transform:scale(1.1);
 }
 
 
@@ -296,9 +313,7 @@ width: calc(100% / 2);
    /* width: calc(100% / 3);*/
 }
 
-.box1 img{
-width:50px;
-}
+
 
  .box1 {
     flex-grow: 1;
@@ -309,6 +324,18 @@ width:50px;
     background-color: pink;
 }
 
+.box1 p{
+    color: gray;
+}
+
+.box1 p:hover{
+    color:white;
+}
+
+.box1 img{
+    width:50px;
+    }
+
 .box1 div:first-child{
 display: flex;
 gap:10px;
@@ -318,6 +345,22 @@ gap:10px;
 display: flex;
 gap:10px;  
 }
+
+.heart-folder i:first-child{
+    color: gray;
+}
+.heart-folder i:first-child:hover{
+    color:white;
+}
+
+.heart-folder i:last-child{
+    color: gray;
+}
+
+.heart-folder i:last-child:hover{
+    color:white;
+}
+
 
 .box2{
     flex-grow: 1;
@@ -340,6 +383,11 @@ gap:10px;
 .box2 div:first-child i{ 
 font-size: 100%;
 }
+
+.box2 div:first-child .fa-circle-play:hover{
+transform: scale(1.1);
+}
+
 
 .box2 div:last-child{
     display: flex;
