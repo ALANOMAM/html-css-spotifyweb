@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
- /*border: 1px red solid;*/
+ border: 1px red solid;
 }
 
 body{
@@ -62,6 +62,7 @@ body{
 }
 
 .playlist{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap:10px;
@@ -109,7 +110,6 @@ body{
 }
 
 .profile-install{
-    margin-top: 10px;
     display:flex;
     flex-direction: column;
     gap: 10px;
@@ -131,6 +131,14 @@ body{
 .install{
     display: flex;
     gap: 20px;
+}
+
+.install span{
+    color: gray;
+}
+
+.install span:hover {
+    color: white;
 }
 
 .install img{
@@ -457,7 +465,7 @@ transform: scale(1.1);
 }
 
 
-@media screen and (max-width: 480px){    
+@media screen and (max-width: 566px){    
     .upgrade{
         width: calc(100% - 60px);
     }
@@ -469,6 +477,12 @@ transform: scale(1.1);
     .side-nav{
         width: 60px;
         padding:0;
+        align-items: center;
+    }
+
+    .side-top{
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
@@ -485,7 +499,7 @@ transform: scale(1.1);
     }
 
     .playlist{
-        opacity:0;
+        display: none;
     }
 
     .profile-install span{
