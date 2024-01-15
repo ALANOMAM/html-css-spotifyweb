@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
- border: 1px red solid;
+ /*border: 1px red solid;*/
 }
 
 body{
@@ -533,4 +533,18 @@ transform: scale(1.1);
         justify-content:flex-start;
         align-items:center;
     }   
+}
+
+
+@media screen and (max-height: 715px){
+    .bottom-nav{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .side-nav{
+        height: 100vh;
+        overflow: hidden;
+    }
 }
